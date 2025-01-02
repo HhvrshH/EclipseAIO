@@ -401,6 +401,11 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
       })!
       section_end()!
 
+      section_start("", 798764056)!
+      /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkxhYmVsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ3YXJtUmVib290IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfV19*/
+      _set_goto_label("warmReboot")!
+      section_end()!
+
       section_start("", 335449327)!
       /*Dat:eyJzIjoicGFyc2VfY3N2X3N0cmluZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoic3RyaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ7e2NvdW50fX0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJzZXBhcmF0b3JzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIsIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiVmFyaWFibGVzTGlzdCIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiY19mLGNfVCIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJSZXN1bHRBc0xpc3QiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkxJU1RfV0lUSF9JVEVNUyIsImlzX2RlZiI6dHJ1ZX1dfQ==*/
       RS("count", false, false)!
@@ -763,6 +768,44 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
             _set_if_expression("IVtbU1VDQ0VTU11d");
             _if(!VAR_SUCCESS,function(){
             section_insert()
+               section_start("", 987230894)!
+               /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+               _call(function()
+               {
+               _on_fail(function(){
+               VAR_LAST_ERROR = _result()
+               VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+               VAR_WAS_ERROR = false
+               _break(1,true)
+               })
+               CYCLES.Current().RemoveLabel("function")
+               section_insert()
+                  section_start("", 52090876)!
+                  /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly93d3cub3JjYS5zby8/Y2hhaW5JZD1lY2xpcHNlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+                  _load("https://www.orca.so/?chainId=eclipse", "", false)!
+                  section_end()!
+
+               },null)!
+               section_end()!
+
+               section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 29871913)!
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+               _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+               _if(VAR_WAS_ERROR,function(){
+               section_insert()
+                  section_start("", 50405719)!
+                  /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly93d3cub3JjYS5zby8/Y2hhaW5JZD1lY2xpcHNlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+                  _load("https://www.orca.so/?chainId=eclipse", "", false)!
+                  section_end()!
+
+               })!
+               section_end()!
+
+               section_start("", 904261215)!
+               /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTGFiZWxOYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoid2FybVJlYm9vdCJ9XX0=*/
+               _long_goto("warmReboot", 3, [])!
+               section_end()!
+
                section_start("", 143174393)!
                /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InwgW1tTT0xdXSB8IENhbnQgU3dhcCBbW0FNT1VOVF1dIEVUSCB0byBbW0NPSU5dXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6ImVuIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ8IFtbU09MXV0gfCBDYW50IFN3YXAgW1tBTU9VTlRdXSBFVEggdG8gW1tDT0lOXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJsZXZlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaW5mbyIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiY29sb3IiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlZCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
                logger_log({"color": ("red"), "en": ("| " + VAR_SOL + " | Cant Swap " + VAR_AMOUNT + " ETH to " + VAR_COIN), "level": ("info"), "ru": ("| " + VAR_SOL + " | Cant Swap " + VAR_AMOUNT + " ETH to " + VAR_COIN)})
@@ -2277,6 +2320,17 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
       })!
       section_end()!
 
+      section_start("", 595675646)!
+      /*Dat:eyJzIjoibGFiZWwiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IkxhYmVsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJjb2xsZWN0UmVib290IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfV19*/
+      _set_goto_label("collectReboot")!
+      section_end()!
+
+      section_start("", 943779231)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJjaGVja0Fzc2V0cyJ9XX0=*/
+      _call_function(checkAssets,{})!
+      _result_function()
+      section_end()!
+
       section_start("", 667875054)!
       /*Dat:eyJzIjoiZm9yZWFjaCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiRm9yQXJyYXkiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ09JTlNdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9XX0=*/
       _do_with_params({"foreach_data":(VAR_COINS)},function(){
@@ -2553,6 +2607,44 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
             _set_if_expression("IVtbU1VDQ0VTU11d");
             _if(!VAR_SUCCESS,function(){
             section_insert()
+               section_start("", 378925435)!
+               /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+               _call(function()
+               {
+               _on_fail(function(){
+               VAR_LAST_ERROR = _result()
+               VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+               VAR_WAS_ERROR = false
+               _break(1,true)
+               })
+               CYCLES.Current().RemoveLabel("function")
+               section_insert()
+                  section_start("", 153177500)!
+                  /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly93d3cub3JjYS5zby8/Y2hhaW5JZD1lY2xpcHNlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+                  _load("https://www.orca.so/?chainId=eclipse", "", false)!
+                  section_end()!
+
+               },null)!
+               section_end()!
+
+               section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 748409174)!
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+               _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+               _if(VAR_WAS_ERROR,function(){
+               section_insert()
+                  section_start("", 992090750)!
+                  /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly93d3cub3JjYS5zby8/Y2hhaW5JZD1lY2xpcHNlIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+                  _load("https://www.orca.so/?chainId=eclipse", "", false)!
+                  section_end()!
+
+               })!
+               section_end()!
+
+               section_start("", 381537266)!
+               /*Dat:eyJzIjoiZ290byIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTGFiZWxOYW1lIiwidHlwZSI6InRleHQiLCJkYXRhIjoiY29sbGVjdFJlYm9vdCJ9XX0=*/
+               _long_goto("collectReboot", 3, [])!
+               section_end()!
+
                section_start("", 824072902)!
                /*Dat:eyJzIjoibG9nZ2VyX2xvZyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoicnUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InwgW1tTT0xdXSB8IENhbnQgU3dhcCBbW0FNT1VOVF1dIEVUSCB0byBbW0NPSU5dXSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6ImVuIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ8IFtbU09MXV0gfCBDYW50IFN3YXAgW1tBTU9VTlRdXSBFVEggdG8gW1tDT0lOXV0iLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJsZXZlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaW5mbyIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoiY29sb3IiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InJlZCIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX1dfQ==*/
                logger_log({"color": ("red"), "en": ("| " + VAR_SOL + " | Cant Swap " + VAR_AMOUNT + " ETH to " + VAR_COIN), "level": ("info"), "ru": ("| " + VAR_SOL + " | Cant Swap " + VAR_AMOUNT + " ETH to " + VAR_COIN)})
@@ -3753,12 +3845,6 @@ section(RESOURCE_1 /*{{threads}}*/,1000000 /*1000000*/,1000000 /*1000000*/,0,fun
                section_end()!
 
             })!
-            section_end()!
-
-            section_start("", 704617888)!
-            /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJjaGVja0Fzc2V0cyJ9XX0=*/
-            _call_function(checkAssets,{})!
-            _result_function()
             section_end()!
 
             section_start("", 457501646)!
