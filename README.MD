@@ -17,5 +17,7 @@ All descriptions is right on the script
 **Files for Work**
 
 `privateEVM.txt` - privates from EVM wallets(need for withdraw and bridge mode).
+
 `privateSOL.txt` - privates from Eclipse wallets.
+
 `proxy.txt` - proxies in any standard format (ip:port:log:pass)
