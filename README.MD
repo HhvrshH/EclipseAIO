@@ -12,6 +12,7 @@ Channel: https://t.me/hashvers
 Withdraw, bridge swap and collect coins in Eclipse Chain 
 
 All descriptions is right on the script
+
 ![settings](img0.png)
 
 **Files for Work**
